@@ -4771,7 +4771,7 @@ input, select, textarea {
 	}
 
 	#downloadresume{
-		border: 3px solid rgb(22, 27, 39);
+		border: 2px solid rgb(22, 27, 39);
 		padding: 15px;
 		color: rgb(22, 27, 39);
 		font-size: medium;
@@ -4781,6 +4781,6 @@ input, select, textarea {
 		text-align: center;
 	}
 	#downloadresume:hover{
-		border: 3px solid rgb(9, 170, 170);
+		border: 2px solid rgb(9, 170, 170);
 		color: rgb(9, 170, 170);
 	}
