@@ -155,10 +155,6 @@ input, select, textarea {
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		text-decoration: none;
 	}
 
@@ -4774,23 +4770,17 @@ input, select, textarea {
 		background-color: rgb(243, 240, 240);
 	}
 
-	#downloadbutton{
+	#downloadresume{
 		border: 3px solid rgb(22, 27, 39);
 		padding: 15px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	#downloadresume{
 		color: rgb(22, 27, 39);
-		font-size: large;
+		font-size: medium;
+		text-transform: none;
 		font-weight: 500;
 		font-family: Calibri;
 		text-align: center;
 	}
-	#downloadbutton:hover{
-		border: 3px solid rgb(9, 170, 170);
-	}
 	#downloadresume:hover{
+		border: 3px solid rgb(9, 170, 170);
 		color: rgb(9, 170, 170);
 	}
