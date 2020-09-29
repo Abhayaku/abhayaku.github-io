@@ -4765,3 +4765,36 @@ input, select, textarea {
 	#homeimage:hover{
 		transform: scale(1.1);
 	}
+	#buttondiv{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 50px;
+		width: 100%;
+		border: none;
+		background-color: rgb(243, 240, 240);
+	}
+
+	#downloadbutton{
+		border: 3px solid #292a38;
+		padding: 15px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#downloadresume{
+		color: rgb(34, 41, 59);
+		font-size: large;
+		text-transform: none;
+		text-decoration: none;
+		font-weight: 500;
+		font-family: Calibri;
+		text-align: center;
+	}
+	#downloadbutton:hover{
+		border: 3px solid #1497a8;
+	}
+	#downloadresume:hover{
+		color: #1497a8;
+		font-size: medium;
+	}
