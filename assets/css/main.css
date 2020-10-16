@@ -3557,7 +3557,7 @@ input, select, textarea {
 			border-style: solid;
 			border-color: #ffffff;
 			border-width: 5px !important;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Calibri";
 			font-size: 2.25rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
@@ -4682,7 +4682,9 @@ input, select, textarea {
 	#abhay{
 		width: 45%;
 		border-radius: 50%;
-		border: 5px solid aqua;
+		border-style: dotted solid dashed;
+		border-width: 4px;
+		border-color:  rgb(0, 204, 204);
 		transition: transform .2s;
 	}
 	#abhay:hover {
@@ -4770,6 +4772,23 @@ input, select, textarea {
 		background-color: rgb(243, 240, 240);
 	}
 
+	.tableclass{
+		width: 500px;
+	}
+
+
+	@media screen and (min-width: 250px) {
+		.tableclass {
+		width: 300px;
+		}
+  	}
+  
+  	@media screen and (min-width: 1000px) {
+		.tableclass {
+		width: 500px
+		}
+  	}
+
 	#downloadresume{
 		border: 2px solid rgb(22, 27, 39);
 		padding: 15px;
@@ -4783,4 +4802,7 @@ input, select, textarea {
 	#downloadresume:hover{
 		border: 2px solid rgb(9, 170, 170);
 		color: rgb(9, 170, 170);
+	}
+	.checked {
+		color: orange;
 	}
