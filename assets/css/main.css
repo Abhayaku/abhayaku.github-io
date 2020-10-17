@@ -4680,9 +4680,9 @@ input, select, textarea {
 	}
 
 	#abhay{
-		width: 45%;
+		width: 50%;
 		border-radius: 50%;
-		border-style: dotted solid dashed;
+		border-style: solid;
 		border-width: 4px;
 		border-color:  rgb(0, 204, 204);
 		transition: transform .2s;
@@ -4690,6 +4690,18 @@ input, select, textarea {
 	#abhay:hover {
 		transform: scale(1.1);
 	}
+
+	@media screen and (min-width: 250px) {
+		#abhay {
+		width: 80%;
+		}
+	  }
+	  
+	  @media screen and (min-width: 700px) {
+		#abhay {
+		width: 50%;
+		}
+  	}
 
 	#resumediv{
 		align-items: flex-start;
@@ -4707,17 +4719,29 @@ input, select, textarea {
 		width: 100%; 
 		align-items: center;
 		justify-content: center; 
-		padding: 40px;
+		padding: 50px;
 	}
 	#resumedp{
-		width: 45%;
+		width: 50%;
 		border-radius: 50%;	
-		border: 2px solid rgb(3, 191, 238);
+		border: 4px solid rgb(3, 191, 238);
 		transition: transform .2s;
 	}
 	#resumedp:hover {
 		transform: scale(1.1);
 	}
+
+	@media screen and (min-width: 250px) {
+		#resumedp {
+		width: 80%;
+		}
+	  }
+	  
+	  @media screen and (min-width: 700px) {
+		#resumedp {
+		width: 50%;
+		}
+  	}
 	#projectheader{
 		display: flex; 
 		width: 100%; 
