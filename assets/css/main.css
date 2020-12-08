@@ -4679,6 +4679,8 @@ input, select, textarea {
 
 	}
 
+	/* home section css */
+
 	#abhay{
 		width: 50%;
 		border-radius: 50%;
@@ -4701,47 +4703,20 @@ input, select, textarea {
 		#abhay {
 		width: 50%;
 		}
-  	}
-
-	#resumediv{
-		align-items: flex-start;
-		justify-content: space-around;
-		display: flex;
-		flex-direction: column;
-	}
-	#listrow{
-		align-items: center;
-		display: flex;
-		flex-direction: row;
-	}
-	#dpdiv{
-		display: flex; 
-		width: 100%; 
-		align-items: center;
-		justify-content: center; 
-		padding: 50px;
-	}
-	#resumedp{
-		width: 50%;
-		border-radius: 50%;	
-		border: 4px solid rgb(3, 191, 238);
+	  }
+	  
+	  #homeimage{
+		width: 80%;
+		height: 40%;
 		transition: transform .2s;
 	}
-	#resumedp:hover {
+	#homeimage:hover{
 		transform: scale(1.1);
 	}
 
-	@media screen and (min-width: 250px) {
-		#resumedp {
-		width: 100%;
-		}
-	  }
-	  
-	  @media screen and (min-width: 700px) {
-		#resumedp {
-		width: 50%;
-		}
-	  }
+
+
+	  /* project section css */
 	  
 	#projectheader{
 		display: flex; 
@@ -4819,6 +4794,7 @@ input, select, textarea {
 	}
 
 	#projectimage{
+		margin-top: 10px;
 		width:90%;
 	}
 
@@ -4835,38 +4811,44 @@ input, select, textarea {
 	  }
 
 
-	#project1div{
-		width: 100%;
-		height: 100%;
+	  	/* resume section css */
+
+	#resumediv{
+		align-items: flex-start;
+		justify-content: space-around;
 		display: flex;
-		align-items: center;
-		justify-content: center;
-		align-content: center;
+		flex-direction: column;
 	}
 
+	#dpdiv{
+		display: flex; 
+		width: 100%; 
+		align-items: center;
+		justify-content: center; 
+		padding: 50px;
+	}
+	#resumedp{
+		width: 50%;
+		border-radius: 50%;	
+		border: 4px solid rgb(3, 191, 238);
+		transition: transform .2s;
+	}
+	#resumedp:hover {
+		transform: scale(1.1);
+	}
 
-
-/* 	@media screen and (min-width: 250px) {
-		#project1image {
-		width: 90%;
-		height: 40%;
+	@media screen and (min-width: 250px) {
+		#resumedp {
+		width: 100%;
 		}
 	  }
 	  
 	  @media screen and (min-width: 700px) {
-		#project1image {
-		height: 90%;
+		#resumedp {
+		width: 50%;
 		}
-	  } */
-	  
-	#homeimage{
-		width: 80%;
-		height: 40%;
-		transition: transform .2s;
-	}
-	#homeimage:hover{
-		transform: scale(1.1);
-	}
+	  }
+
 	#buttondiv{
 		display: flex;
 		align-items: center;
@@ -4907,7 +4889,4 @@ input, select, textarea {
 	#downloadresume:hover{
 		border: 2px solid rgb(9, 170, 170);
 		color: rgb(9, 170, 170);
-	}
-	.checked {
-		color: orange;
 	}
