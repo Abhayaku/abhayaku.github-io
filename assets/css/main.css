@@ -5004,19 +5004,46 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 3%;
-  padding-left: 5%;
-  width: 100%;
+  padding: 5%;
+  margin: 0px;
   border-bottom: 2px solid #909498;
 }
+
+@media screen and (min-width: 250px) {
+  .item_container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .item_container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
 .item_container h3 {
   font-family: Calibri;
   font-size: large;
   color: rgb(9, 170, 170);
   margin: 0;
   padding: 0;
-  width: 10%;
+  width: 50%;
 }
+
+@media screen and (min-width: 250px) {
+  .item_container h3 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .item_container h3 {
+    width: 10%;
+  }
+}
+
 .item_container p {
   color: #000000;
   font-size: medium;
